@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>PUMA中国官方商城</title>
+		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/css/index.css">
+		<script src="http://vjs.zencdn.net/c/video.js"></script>
+	</head>
+	<body>
+		<header></header>
+		<div class="banner"></div>
+		<div class="singel-banner">
+			<div class="wrap">
+				<div class="pic1"><img src="/img/index/banner/2.jpg"/></div>
+				<div class="pic2"></div>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="wrap">
+				<div class="left">
+					<a class="img" href="/html/running.html">
+						<img src="/img/index/nav2/1.jpg"/>
+					</a>
+					<a href="/html/running.html">立即选购</a>
+				</div>
+				<div class="center">
+					<div class="img">
+						<a href="/html/soccer.html">
+							<img src="/img/index/nav2/2.jpg"/>
+						</a>
+					</div>
+					<a href="/html/soccer.html">立即选购</a>
+				</div>
+				<div class="right">
+					<div class="img">
+						<img src="/img/index/nav2/3.jpg"/>
+					</div>
+					<a href="javascript:;">立即选购</a>
+				</div>
+			</div>
+		</div>
+		<div class="nav1">
+			<div class="wrap">
+				<p>明星同款 每日特别折扣</p>
+				<div class="box">
+					<div><img src="/img/index/nav1/4.jpg" alt="" /></div>
+					<div><img src="/img/index/nav1/5.jpg" alt="" /></div>
+					<div><img src="/img/index/nav1/6.jpg" alt="" /></div>
+				</div>
+			</div>
+		</div>
+		<div class="video">
+			<p class="p1">观看<span>PUMA</span>视频</p>
+			<p class="p2">看看PUMA正在发生的精彩片段</p>
+			<div class="player">
+				<div class="m">
+					<video 
+						id="my-video" 
+						class="video-js vjs-default-skin" 
+						preload="auto" 
+						controls
+						loop
+						width="800" height="420"
+			 			poster="http://image-cn.puma.com/resources/images/cms/video-img/cesshi_vedio/20181005155550.jpg?201811091433" 
+			 			data-setup="{}">
+						<source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+		 			</video>
+				  	<script type="text/javascript">
+						var myPlayer = videojs('my-video');
+						videojs("my-video").ready(function(){
+							var myPlayer = this;
+							myPlayer.volume(1);
+							myPlayer.play();
+							
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="banner1">
+			<div class="wrap">
+				<img src="/img/index/banner/3.gif" alt="" />
+			</div>
+		</div>
+		<div class="banner2">
+			<div class="wrap">
+				<img src="/img/index/banner/1.jpg" alt="" />
+			</div>
+		</div>
+		<div class="show">
+			<div class="wrap">
+				<p>热卖推荐</p>
+				<div class="box">
+					<div class="insetbox1">
+						<div class="insertbox2">
+							<dl>
+								<dt><img src="/img/index/production/1.png" alt="" /></dt>
+								<dd>RS-XREINVENTION男女同款撞色休闲</dd>
+								<dd>¥999.00</dd>
+							</dl>
+							<dl>
+								<dt><img src="/img/index/production/2.png" alt="" /></dt>
+								<dd>SUEDE CLASSIC POP CULTURE男女同款</dd>
+								<dd>¥999.00</dd>
+							</dl>
+							<dl>
+								<dt><img src="/img/index/production/3.png" alt="" /></dt>
+								<dd>AVID RPLNT男女同款休闲鞋</dd>
+								<dd>¥799.00</dd>
+							</dl>
+							<dl>
+								<dt><img src="/img/index/production/4.png" alt="" /></dt>
+								<dd>PUMAXPEPSIRS-0男女同款休闲鞋</dd>
+								<dd>¥699.00</dd>
+							</dl>
+							<dl>
+								<dt><img src="/img/index/production/5.png" alt="" /></dt>
+								<dd>AVID RPLNT男女同款休闲鞋</dd>
+								<dd>¥699.00</dd>
+							</dl>
+							<dl>
+								<dt><img src="/img/index/production/6.png" alt="" /></dt>
+								<dd>AVID RPLNT男女同款休闲鞋</dd>
+								<dd>¥699.00</dd>
+							</dl>
+						</div>
+					</div>
+					<a href="javascript:;" class="next"></a>
+					<a href="javascript:;" class="prev"></a>
+				</div>
+			</div>
+		</div>
+		<footer></footer>
+	<script type="text/javascript" src="/libs/require/require.js" data-main="/js/index.js"></script>
+	
+	</body>
+</html>

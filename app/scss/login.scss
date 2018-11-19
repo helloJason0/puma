@@ -1,0 +1,92 @@
+@import "component/header.scss";
+@import "component/footer.scss";
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.login{
+    width: 1170px;
+    height: 680px;
+    margin: 70px auto;
+    margin-bottom: 0;
+    h1{
+        width: 100%;
+        height: 67px;
+        line-height: 67px;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "微软雅黑";
+        border-bottom:4px solid black ;
+        color: #333333;
+        letter-spacing:7px;
+    }
+    .box{
+        width: 383px;
+        height: 450px;
+        margin: 40px auto ;
+        border: 1px solid #CCCCCC;
+        .wrap{
+            width: 330px;
+            height: 100%;
+            margin: 0 auto;
+        }
+        h2{
+            height: 70px;
+            line-height: 70px;
+            margin-top: 10px;
+            border-bottom: 1px dashed #CCCCCC;
+            font-family: "微软雅黑";
+            color: #333333;
+        }
+         div{
+             margin-top: 50px;
+            width: 100%;
+            height: 53px;
+            margin-bottom: 40px;
+            p{
+                font-size: 15px;
+                margin-bottom: 13px;
+                height: 22px;
+                line-height: 22px;
+                span{
+                    color: red;
+                }
+            }
+            input{
+                width: 300px;
+                height: 35px;
+                background-color:#eaeaea;
+                border:none;
+                border: none;
+            }
+            .username{
+                display: none;
+                color: red;
+                font-size: 13px;
+                font-family: "微软雅黑";
+            }
+            .password{
+                display: none;
+                color: red;
+                font-size: 13px;
+                font-family: "微软雅黑";
+            }
+        }
+        #btn{
+            width: 200px;
+            height:40px;
+            margin: 30px 56px;
+            background-color: red;
+            border: none;
+            color:white;
+        }   
+    }
+}
+.zhifu{
+     width:1170px;
+     height: 335px;
+     margin: 0 auto;
+     background:url(/img/regist/1.jpg) no-repeat center center;
+
+}

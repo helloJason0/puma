@@ -1,0 +1,227 @@
+@import "component/header.scss";
+@import "component/footer.scss";
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.top{
+    width: 1184px;
+    height: 146px;
+    padding-top: 86px;
+    margin: 0 auto;
+    border-bottom: 3px solid #0F0F0F;
+    p{
+        float: left;
+        width: 300px;
+        height: 80px;
+        font-size: 38px;
+        font-family: "微软雅黑";
+        letter-spacing: 7px;
+        color: #333333;
+        font-weight: bold;
+        a{
+            font-size: 14px;
+            letter-spacing: 0;
+            color: red;
+        }
+    }
+    #qjz{
+        float: right;
+        width: 203px;
+        height: 46px;
+        background-color: red;
+        border: none;
+        color: white;
+        font-size: 16px;
+        font-family: "微软雅黑";
+    }
+}
+.car{
+    width: 1184px;
+    margin: 0 auto;
+    .zj{
+        width: 100%;
+        height: 67px;
+        border-bottom: 1px solid #cccccc;
+        position: relative;
+        .sp{
+            position: absolute;
+            right: 100px;
+            top: 18px;
+            font-family: cursive;
+            font-size: 20px;
+            color: #333333;
+            font-weight: bold;
+        }
+        .dw{
+             position: absolute;
+             right: 7px;
+             top: 18px;
+             font-family: cursive;
+            font-size: 20px;
+            color: #333333;
+            font-weight: bold;
+        }
+        #zj{
+            float:right;
+            margin-right: 40px;
+            height:67px;
+            width:180px;
+            line-height:67px;
+            text-align:right;
+            font-size: 20px;
+            color: #333333;
+            font-family: cursive;
+            font-weight: bold;
+        }
+    }
+    .list{
+        width: 1184px;
+        #demo{
+            width: 1184px;
+            .thead{
+                width: 1184px;
+                height: 40px;
+                th{
+                    text-align: left;
+                    width:12.5%;
+                    color: #999999;
+                    font-size: 14px;
+                    font-family: "微软雅黑";
+                    
+                    #qx{
+                        position: relative;
+                        top: 3px;
+                        margin-right: 10px;
+                    }
+                }
+                th:nth-child(1){
+                    width: 40%;
+                }
+            
+            }
+            tbody tr{
+                height:200px;
+                td{
+                height: 200px;
+                padding-top: 33px;
+                }
+                .td1 .dbtn{
+                           float: left;
+                           margin-right: 10px;
+                }
+                .td1 .img{
+                          float: left;
+                          padding-top: 20px;
+                          width: 150px;
+                          height: 160px;
+                          img{
+                              width: 130px;
+                              height: 130px;
+                              margin-left: 15px;
+                          }
+                }
+                .td1 .mes{
+                         margin-left: 30px;
+                         float: left;
+                         width: 230px;
+                         height: 150px;
+                        .name{
+                               height: 26px;
+                               line-height: 26px;
+                               width: 100%;
+                               font-size: 20px;
+                               color: #333333;
+                               font-family: "微软雅黑";
+                               font-weight: bold;
+                        }
+                        .xh{
+                            height: 40px;
+                            line-height: 40px;
+                            width: 100%;
+                            font-size: 18px;
+                            color: #999999;
+                            margin-bottom: 5px;
+                        }
+                        a{
+                            margin-right: 5px;
+                            border-bottom: 1px solid black;
+                            padding-bottom: 2px;
+                            color: black;
+                            font-size: 13px;
+                            font-family: "微软雅黑";
+                        }
+                        
+                    }
+                    
+                .td2{
+                    vertical-align: text-top;
+                    .ebtn{color: #333333;} 
+                    .delbtn{color: red;}
+                    .okbtn{display: none;}
+                    .cbtn{display: none;}
+                }
+                
+                
+                .td3{
+                    vertical-align: text-top;
+                    font-family: fantasy;
+                    letter-spacing: 2px;
+                }
+                .td4{
+                    vertical-align: text-top;
+                    font-family: fantasy;
+                    font-size: 18px;
+                    input{
+                        background: #eaeaea;
+                        border: none;
+                        height: 27px;
+                        width: 60px;
+                        letter-spacing: 1px;
+                        font-size: 18px;
+                        font-family: fantasy;
+                        color:royalblue;
+                        display: none;
+                    }
+                }
+                .td5{
+                     vertical-align: text-top;
+                     font-family: fantasy;
+                     letter-spacing: 1px;
+                }  
+                .td6{
+                     vertical-align: text-top;
+                     font-family: fantasy;
+                     letter-spacing: 1px;
+                }
+            }
+            .edit{
+                .td2{
+                    .okbtn{display:inline-block;}
+                    .cbtn{display: inline-block;}
+                    .ebtn{display: none;}
+                    .delbtn{display: none;}
+                }
+                .td4{
+                    span{display:none;}
+                    input{display: inline-block;}
+                }
+            }
+        }
+    }
+}
+.empty{
+    width: 1184px;
+    height: 639px;
+    margin: 0 auto;
+    background: url(/img/addcar/1.jpg) no-repeat center center;
+}
+
+.zhifu{
+     width:1170px;
+     height: 335px;
+     margin: 0 auto;
+     background:url(/img/regist/1.jpg) no-repeat center center;
+
+}

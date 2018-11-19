@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="/css/running.css" />
+	</head>
+	<body>
+		<header></header>
+		<div class="banner">
+			<div class="img"></div>
+		</div>
+		<div class="cont1">
+			<div class="head">
+				<ul>
+					<li><a href="http://localhost:1807/">首页</a></li>
+					<li>/</li>
+					<li><a href="javascript:;">运动</a></li>
+					<li>/</li>
+					<li>跑步<span>&训练</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="nav"></div>
+			<div class="box">
+				<div class="page-list"></div>
+				<div id="allitems"></div>
+					<script type="text/html" id="pro-template">
+						{{each production item i}}
+						<dl>
+							<dt><img src="{{item.img}}"/></dt>
+							<dd>{{item.name}}</dd>
+							<dd>{{item.price}}</dd>
+						</dl>
+						{{/each}}
+					</script>
+			</div>
+		</div>
+		<footer></footer>
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/running.js"></script>
+	</body>
+</html>

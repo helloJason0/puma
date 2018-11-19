@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="/css/regist.css" />
+</head>
+<body>
+	<header></header>
+	<div class="regist">
+		<h1>创建账户</h1>
+		<div class="create-cuont">
+			<p class="tisi">标有<span>*</span>的所有项目均要必须填写</p>
+				<form id="form">
+					<div>
+						<p><span>*</span>用户名</p>
+						<label><input type="text" name="" style=" margin-right: 80px;" id="username" placeholder="2-10位，可包含汉字、数字、字母、下划线"/></label>
+						<h2 class="username">*不符合规则</h2>
+					</div>
+					<div>
+						<p><span>*</span>手机号码</p>
+						<label><input type="number" name="" placeholder="请输入你的电话号码" id ="telnum"/></label>
+						<h2 class="telnum">*请输入正确的电话号码</h2>
+					</div>
+					<div>
+						<p><span>*</span>密码</p>
+						<label><input type="password" name="" placeholder="请输入6-10位的数字加字母的组合密码" id="password"/></label>
+						<h2 class="password">*请按要求输入正确格式的密码</h2>
+					</div>
+					<div>
+						<p><span>*</span>确认密码</p>
+						<label><input type="password" name="" placeholder="请输入确认密码" id="repassword"/></label>
+						<h2 class="repassword">*密码不符</h2>
+					</div>
+					<div>
+						<p><span>*</span>邮箱</p>
+						<label><input type="email" name="" placeholder="请输入你的邮箱" id="email"/></label>
+						<h2 class="email">*邮箱无效</h2>
+					</div>
+					<input id="chekb" type="checkbox" name="" /><span style="font-size: 13px;color: #333333;">我已阅读并同意PUMA中国官方商城的《使用条款》和《隐私政镜》。</span>
+					<button id="btn">提交</button>
+				</form>
+		</div>
+	</div>
+	<div class="zhifu"></div>
+	<footer></footer>
+	</div>
+	<script type="text/javascript" src="/libs/require/require.js" data-main="/js/regist.js"></script>
+</body>
+</html>

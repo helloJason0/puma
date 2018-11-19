@@ -1,0 +1,69 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+a{text-decoration: none;}
+ul li{list-style: none;}
+
+.banner{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+.banner .box{
+    width: 1263px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner .box .btn{
+    width: 220px;
+    height:60px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 440px;
+    left: 500px;
+}
+.banner .box .btn span{
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    background-color:#cccccc;
+    border-radius:50%;
+}
+.banner .box .btn .ac{
+    width: 19px;
+    height: 19px;
+    background-color: red;
+}
+.banner .box ul{
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.banner .box ul li{
+    float: left;
+    height: 440px;
+}
+.banner .box li img{
+    width: 1263px;
+    height: 440px;
+}
+#goNext{
+    width: 24px;
+    height: 52px;
+    display: inline-block;
+    position: absolute;
+    top:180px ;
+    right:20px;
+    background: url(/img/soccer/sprit/1.png) no-repeat -25px 0 ;
+}
+#goPrev{
+    width: 24px;
+    height: 52px;
+    display: inline-block;
+    position: absolute;
+    top:180px ;
+    left: 20px;
+    background: url(/img/soccer/sprit/1.png) no-repeat ;
+}
